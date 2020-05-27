@@ -1,0 +1,47 @@
+{
+  "name": "footprint.js",
+  "version": "1.0.0",
+  "description": "A lightweight plugin to generate heatmap based on your audience behaviour. Analyze and visualize their footprints to improve your business.",
+  "main": "build/footprint.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "npm run build & npm run watch & webpack-dev-server",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrityunjay38/footprint.js.git"
+  },
+  "keywords": [
+    "heatmap",
+    "leaflet",
+    "footprints",
+    "CTR",
+    "maps",
+    "heat",
+    "graph"
+  ],
+  "author": "Mrityunjay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrityunjay38/footprint.js/issues"
+  },
+  "homepage": "https://github.com/mrityunjay38/footprint.js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-loader": "^4.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
